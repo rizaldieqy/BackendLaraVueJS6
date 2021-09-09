@@ -93,7 +93,7 @@
             </li>
 
             <li class="nav-item {{ Request::is('admin/customer*') ? 'active' : '' }}">
-                <a href="{{ route('admin.customers.index') }}" class="nav-link">
+                <a href="{{ route('admin.customer.index') }}" class="nav-link">
                     <i class="fas fa-users"></i>
                     <span>CUSTOMERS</span>
                 </a>

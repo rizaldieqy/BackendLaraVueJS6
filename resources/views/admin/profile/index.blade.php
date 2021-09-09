@@ -93,7 +93,7 @@
                 </div>
 
                 <div class="card-body">
-                    <form action="{{ route('user.profile-information.update') }}" method="POST">
+                    {{-- <form action="{{ route('user.profile-information.update') }}" method="POST"> --}}
                         @csrf
                         @method('PUT')
 

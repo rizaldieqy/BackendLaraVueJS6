@@ -23,7 +23,7 @@
                         </div>
                     </form>
                     <div class="table-responsive">
-                        <div class="table table-bordered">
+                        <table class="table table-bordered">
                             <thead>
                                 <tr>
                                     <th scope="col" style="text-align: center;width:6%">NO.</th>
@@ -53,7 +53,7 @@
                                     {{ $users->links("vendor.pagination.bootstrap-4") }}
                                 </div>
                             </table>
-                        </div>
+                        </table>
                     </div>
                 </div>
             </div>

@@ -86,35 +86,35 @@
             </div>
 
             <li class="nav-item {{ Request::is('admin/order*') ? 'active' : '' }}">
-                <a href="#" class="nav-link">
+                <a href="{{ route('admin.order.index') }}" class="nav-link">
                     <i class="fas fa-shopping-cart"></i>
                     <span>ORDERS</span>
                 </a>
             </li>
 
             <li class="nav-item {{ Request::is('admin/customer*') ? 'active' : '' }}">
-                <a href="#" class="nav-link">
+                <a href="{{ route('admin.customers.index') }}" class="nav-link">
                     <i class="fas fa-users"></i>
                     <span>CUSTOMERS</span>
                 </a>
             </li>
 
             <li class="nav-item {{ Request::is('admin/slider*') ? 'active' : '' }}">
-                <a href="#" class="nav-link">
+                <a href="{{ route('admin.slider.index') }}" class="nav-link">
                     <i class="fas fa-laptop"></i>
                     <span>SLIDERS</span>
                 </a>
             </li>
 
             <li class="nav-item {{ Request::is('admin/profile*') ? 'active' : '' }}">
-                <a href="#" class="nav-link">
+                <a href="{{ route('admin.profile.index') }}" class="nav-link">
                     <i class="fas fa-user-circle"></i>
                     <span>PROFILE</span>
                 </a>
             </li>
 
             <li class="nav-item {{ Request::is('admin/user*') ? 'active' : '' }}">
-                <a href="#" class="nav-link">
+                <a href="{{ route('admin.user.index') }}" class="nav-link">
                     <i class="fas fa-users"></i>
                     <span>USERS</span>
                 </a>
